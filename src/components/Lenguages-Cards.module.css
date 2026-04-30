@@ -1,6 +1,4 @@
-/*
-
-CSS Modules — esempio
+/*CSS Modules — esempio
 =====================
 
 Un file ".module.css" permette di scrivere regole CSS "scoped",
@@ -18,11 +16,4 @@ Come si usa:
 La classe `.title` qui sotto è quindi disponibile nel componente
 come `styles.title` e si può combinare con altre classi (anche di
 Bootstrap) usando un template literal:
-<h1 className={`${styles.title} text-primary`}>...</h1>
-*/
-
-.title {
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+<h1 className={`${styles.title} text-primary`}>...</h1>*/
